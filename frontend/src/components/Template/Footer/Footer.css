@@ -1,0 +1,30 @@
+.footer{
+    width: 100vw;
+    font-size: 0.9rem;
+    color: var(--gray-text);
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    width: 100vw;
+    background-color: var(--dark-gray);
+    height: 8px;
+}
+
+.footerContact{
+    margin: 25px;
+}
+
+.contact{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+}

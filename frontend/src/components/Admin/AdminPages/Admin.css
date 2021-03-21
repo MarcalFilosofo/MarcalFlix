@@ -1,0 +1,14 @@
+.admin-pages{
+    background-color: var(--gray-background);
+    color: var(--gray-text);
+}
+
+a{
+    color: var(--gray-text);
+}
+
+a:hover{
+    color: var(--gray-text);
+
+}
+

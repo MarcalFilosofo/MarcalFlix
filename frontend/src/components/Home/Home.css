@@ -1,0 +1,27 @@
+.home{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 800px 1fr 200px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
+    ;
+    width: 100vw;
+
+    background-color: var(--gray-background);
+    color: #fff;
+}
+
+.header{
+    grid-area: header;
+}
+
+.main{
+    grid-area: main;
+    height: 100vh;
+}
+
+.footer{
+    grid-area: footer;
+}
